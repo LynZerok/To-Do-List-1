@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #0d1117;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100hv;
+}
+
+.container {
+    width: 350px;
+    background: #161b22;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.task-input {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+#taskInput {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 6px 0 0 6px;
+    outline: none;
+}
+
+#addTaskBtn {
+    background: #238636;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 0 6px 6 px 0;
+    cursor: pointer;
+}
+
+#addTaskBtn:hover {
+    background: #2ea043;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #21262d;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+button.delete {
+    background: #da3633;
+    border: none;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#clearAll {
+    margin-top: 10px;
+    width: 100%;
+    background: #da3633;
+    border: none;
+    padding: 8px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
